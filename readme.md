@@ -51,6 +51,13 @@ python main.py
 
 #### **Usage**
 
+Press keys to move the snake:
+ - "Right" to move right
+ - "Left" to move left
+ - "Up" to move up
+ - "Down" to move up down       
+ 
+
 ![Snake Game](./image/snake_game_0.png)       
 
 ![Snake Game](./image/snake_game_1.png)
