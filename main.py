@@ -16,8 +16,10 @@ little_snake = Snake()
 new_food = Food()
 new_scoreboard = Scoreboard()
 
-# Create snake and bord
+# Create snake
 new_bord.create_bord()
+
+# call method "listen_snake"
 new_screen.listen_snake(little_snake)
 
 # Cycle "while" condition to exit game_on equal to false
