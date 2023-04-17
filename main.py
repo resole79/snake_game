@@ -16,7 +16,7 @@ little_snake = Snake()
 new_food = Food()
 new_scoreboard = Scoreboard()
 
-# Create snake
+# Create bord
 new_bord.create_bord()
 
 # call method "listen_snake"
