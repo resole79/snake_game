@@ -1,6 +1,6 @@
 ## Snake Game
 
-A OOP version [Snake](https://en.wikipedia.org/wiki/Snake_(video_game_genre)) Game written in Python using the turtle library. 
+OOP version [Snake](https://en.wikipedia.org/wiki/Snake_(video_game_genre)) Game written in Python using the turtle library. 
        
 Snake is a sub-genre of action video games where the player maneuvers the end of a growing line, often themed as a snake. The player must keep the snake from colliding with both wall and itself, which gets harder as the snake lengthens.       
 
