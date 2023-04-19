@@ -1,6 +1,8 @@
 ## Snake Game
 
-OOP version [Snake](https://en.wikipedia.org/wiki/Snake_(video_game_genre)) Game written in Python using the turtle library. 
+OOP version [Snake](https://en.wikipedia.org/wiki/Snake_(video_game_genre)) Game written in Python using the turtle library.        
+
+#### Added **High Score**       
        
 Snake is a sub-genre of action video games where the player maneuvers the end of a growing line, often themed as a snake. The player must keep the snake from colliding with both wall and itself, which gets harder as the snake lengthens.       
 
@@ -37,12 +39,12 @@ python main.py
  - **main.py**: Main program.
  - **snake.py**: Snake class
 	- *Instance*: list_of_piece, head
-	- *Method*: create_snake, tail, add_tail, move_snake, snake_right, snake_left, snake_up, snake_down
+	- *Method*: create_snake, tail, add_tail, *reset_snake*, move_snake, snake_right, snake_left, snake_up, snake_down
  - **food.py**: Food class
 	- *Method*: random_food
  - **scoreboard.py**: Scoreboard class
-	- *Instance*: score, level, level_speed
-	- *Method*: game_over, increase_score, increase_leve, refresh_score
+	- *Instance*: score, level, *high_score*, level_speed
+	- *Method*: ~~game_over~~, *read_scoreboard_file*, increase_score, increase_leve, *update_high_score*, refresh_score
  - **display.py**: MyScreen class
 	- *Instance*: list_of_window, this_window, x_coord, y_coord
 	- *Method*: create_window, listen_snake

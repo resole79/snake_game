@@ -44,8 +44,11 @@ while game_on:
             or little_snake.head.xcor() < -new_screen.x_coord+DISTANCE_TO_DIE\
             or little_snake.head.ycor() > new_screen.y_coord-DISTANCE_TO_DIE\
             or little_snake.head.ycor() < -new_screen.y_coord+DISTANCE_TO_DIE:
-        game_on = False
-        new_scoreboard.game_over()
+        # game_on = False
+        # new_scoreboard.game_over()
+        new_scoreboard.update_high_score()
+        new_scoreboard.refresh_score()
+        little_snake.reset_snake()
 
     # snake collision tail
     for piece_of_tail in little_snake.list_of_piece:
@@ -53,7 +56,10 @@ while game_on:
             pass
         # "if" to check distance between head and piece of tail
         elif little_snake.head.distance(piece_of_tail) < 15:
-            game_on = False
-            new_scoreboard.game_over()
+            new_scoreboard.update_high_score()
+            new_scoreboard.refresh_score()
+            little_snake.reset_snake()
+            # game_on = False
+            # new_scoreboard.game_over()
 
 new_screen.this_window.exitonclick()

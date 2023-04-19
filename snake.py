@@ -1,4 +1,5 @@
 from turtle import Turtle
+from display import MyScreen
 # For snake random position uncomment
 # from screen import MyScreen
 # from random import randint
@@ -28,7 +29,7 @@ class Snake:
     # Instance
     list_of_piece, head
     Method:
-    create_snake, tail, add_tail, move_snake
+    create_snake, tail, add_tail, reset_snake, move_snake
     snake_right, snake_left, snake_up, snake_down
     """
     def __init__(self):
@@ -61,6 +62,13 @@ class Snake:
         snake.speed(SNAKE_SPEED)
         snake.goto(position)
         self.list_of_piece.append(snake)
+
+    def reset_snake(self):
+        for piece in self.list_of_piece:
+            piece.goto(MyScreen().x_coord + 10000, MyScreen().y_coord + 10000)
+        self.list_of_piece.clear()
+        self.create_snake()
+        self.head = self.list_of_piece[0]
 
     # method to move snake
     def move_snake(self):
