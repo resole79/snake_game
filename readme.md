@@ -62,8 +62,9 @@ Press keys to move the snake:
 
 ![Snake Game](./image/snake_game_0.png)       
 
-![Snake Game](./image/snake_game_1.png)
+![Snake Game](./image/snake_game_1.png)         
 
+![Snake Game](./image/snake_game_2.png)         
 
 ## **Credit**
 
