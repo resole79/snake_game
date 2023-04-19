@@ -44,7 +44,7 @@ python main.py
 	- *Method*: random_food
  - **scoreboard.py**: Scoreboard class
 	- *Instance*: score, level, *high_score*, level_speed
-	- *Method*: ~~game_over~~, *read_scoreboard_file*, increase_score, increase_leve, *update_high_score*, refresh_score
+	- *Method*: ~~game_over~~, *read_scoreboard_file*, increase_score, increase_level, *update_high_score*, refresh_score
  - **display.py**: MyScreen class
 	- *Instance*: list_of_window, this_window, x_coord, y_coord
 	- *Method*: create_window, listen_snake
