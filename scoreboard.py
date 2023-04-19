@@ -17,7 +17,7 @@ class Scoreboard(Turtle):
     Instance:
     score, level, high_score, level_speed
     Method:
-    increase_score, increase_leve,
+    increase_score, increase_level,
     update_high_score, refresh_score
     """
     def __init__(self):
